@@ -1,0 +1,28 @@
+{
+  "name": "caps-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./caps/caps-MSG.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmadIdris/caps-queue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmadIdris/caps-queue/issues"
+  },
+  "homepage": "https://github.com/EmadIdris/caps-queue#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "jest": "^27.3.1",
+    "socket.io": "^4.3.2",
+    "socket.io-client": "^4.3.2"
+  }
+}
